@@ -3,7 +3,6 @@ package Easy;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 /**
  * 
@@ -41,6 +40,7 @@ public class NumberOfR {
 			if('K' == input [i] && i>= startIndex && i<=endIndex) {
 				//output[i] = 'R';
 				rcount++;
+			} else if ('R' == input[i] && i>= startIndex && i<=endIndex) {
 			} else if ('R' == input[i]) {
 				rcount++;
 			}
